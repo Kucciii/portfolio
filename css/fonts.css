@@ -1,0 +1,14 @@
+@font-face {
+    font-family: MonumentExtended-Regular;
+    src: url(../fonts/MonumentExtended/MonumentExtended-Regular.otf);
+}
+
+@font-face {
+    font-family: MonumentExtended-UltraBold;
+    src: url(../fonts/MonumentExtended/MonumentExtended-Ultrabold.otf);
+}
+
+@font-face {
+    font-family: Turismo;
+    src: url(../fonts/Turismo/TurismoCF-Bold.otf);
+}

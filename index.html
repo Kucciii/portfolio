@@ -1,48 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title>Kucci | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
+
 <body>
+    <nav class="navbar">
+        <ul class="nav-ul">
+            <img src="img/logo1.png" class="logo" alt="Kucci | Logo">
+            <li class="nav-list"><a href="" class="nav-link">Home</a></li>
+            <li class="nav-list"><a href="" class="nav-link">About</a></li>
+            <li class="nav-list"><a href="" class="nav-link">Services</a></li>
+            <li class="nav-list"><a href="" class="nav-link">Blog</a></li>
+            <li class="nav-list"><a href="" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
     <header>
-        <nav class="navbar">
-            <ul class="nav-ul">
-                <img src="img/logo1.png" alt="Kucci | Logo">
-                <li class="nav-list"><a href="" class="nav-link">Home</a></li>
-                <li class="nav-list"><a href="" class="nav-link">About</a></li>
-                <li class="nav-list"><a href="" class="nav-link">Services</a></li>
-                <li class="nav-list"><a href="" class="nav-link">Blog</a></li>
-                <li class="nav-list"><a href="" class="nav-link">Contact</a></li>
-            </ul>
-        </nav>
-        <div id="header-content">
-            <h1 class="heading-1">I'm Kucci</h1>
+        <div class="header-content">
+            <h1 class="main-heading">I'm Kucci</h1>
             <p class="static-text">A <span class="typewriter"></span></p>
-            <div class="btn">
-                <a href="https://www.fiverr.com/share/b5pkdY" target="_blank" class="neon-btn-a">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    Hire Me
-                </a>
-            </div>
+
+            <a href="https://www.fiverr.com/share/b5pkdY" target="_blank" class="neon-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Hire Me
+            </a>
         </div>
     </header>
+    <section>
+    </section>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script>
     var typed = new Typed('.typewriter', {
-        strings: ["", "Web Developer", "UI/UX Designer", "Java Programmer", "Freelancer"],
-        typeSpeed: 150,
+        strings: ["", "Web Developer", "UI/UX Designer", "Java Programmer", "Minecraft Developer", "Freelancer"],
+        typeSpeed: 80,
         backSpeed: 50,
         loop: true
     })
 </script>
+
 </html>
