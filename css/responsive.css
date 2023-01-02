@@ -2,16 +2,43 @@
     html {
         font-size: 15px;
     }
+    .navbar {
+        top: -100vh;
+        width: 100vw;
+    }
+    #navbar-open, #navbar-close {
+        display: initial;
+    }
+    .section {
+        width: 100%;
+        margin-left: 0;
+    }
+
 }
 
 @media only screen and (max-width: 450px) {
     html {
-        font-size: 11px;
+        font-size: 0.6rem;
+    }
+    .skills-cont {
+        width: 90%;
+    }
+    .skill {
+        min-height: 30px;
+    }
+    .skill-bar {
+        height: 10%;
     }
 }
 
 @media only screen and (max-width: 290px) {
     html {
-        font-size: 8.5px;
+        font-size: 0.3rem;
+    }
+    .skill {
+        min-height: 20px;
+    }
+    .skill-bar {
+        height: 10%;
     }
 }
