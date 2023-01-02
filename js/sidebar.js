@@ -1,11 +1,12 @@
-var openBtn = document.querySelector("#navbar-open")
-var closeBtn = document.querySelector("#navbar-close")
-var sideBar = document.querySelector(".navbar")
+var hamburger = document.getElementById("hamburger")
+var sideBar = document.getElementById("navbar")
 
-openBtn.onclick = () => {
-    sideBar.style.top = "0"
-}
-
-closeBtn.onclick = () => {
-    sideBar.style.top = "-100vh"
+hamburger.onclick = () => {
+    sideBar.classList.toggle("open")
+    if (hamburger.innerText == "menu") {
+        hamburger.innerText = "close";
+    } 
+    else {
+        hamburger.innerText = "menu";
+    }
 }
