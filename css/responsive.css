@@ -16,6 +16,9 @@
         width: 100%;
         margin-left: 0;
     }
+    .nav-link {
+        font-size: 1.2rem;
+    }
 
 }
 
@@ -23,20 +26,36 @@
     html {
         font-size: 0.6rem;
     }
-    .skills-cont {
-        width: 90%;
+    .about-content {
+        flex-direction: column;
+    }
+    .about-content p {
+        font-size: 1.8rem;
+    }
+    #skills{
+        padding-bottom: 2vh;
+    }
+    .skill-icon {
+        width: 1.8rem; 
+        filter: invert();
+        padding: 2px;
     }
     .skill {
-        min-height: 30px;
+        min-height: 40px;
+        grid-template-columns: 15% 30% 50%;
     }
     .skill-bar {
         height: 10%;
+        margin: initial 0;
+    }
+    .skill-name span {
+        font-size: medium;
     }
 }
 
 @media only screen and (max-width: 290px) {
     html {
-        font-size: 0.3rem;
+        font-size: 0.4rem;
     }
     .skill {
         min-height: 20px;
