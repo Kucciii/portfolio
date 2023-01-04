@@ -1,6 +1,6 @@
 @media only screen and (max-width: 768px) {
     html {
-        font-size: 15px;
+        font-size: 80%;
     }
     .navbar {
         top: -100vh;
@@ -16,27 +16,23 @@
         width: 100%;
         margin-left: 0;
     }
-    .nav-link {
-        font-size: 1.2rem;
-    }
 
 }
 
 @media only screen and (max-width: 450px) {
     html {
-        font-size: 0.6rem;
+        font-size: 60%;
     }
     .about-content {
         flex-direction: column;
     }
     .about-content p {
-        font-size: 1.8rem;
+        padding: 2vw;
     }
     #skills{
         padding-bottom: 2vh;
     }
     .skill-icon {
-        width: 1.8rem; 
         filter: invert();
         padding: 2px;
     }
@@ -48,19 +44,28 @@
         height: 10%;
         margin: initial 0;
     }
-    .skill-name span {
-        font-size: medium;
-    }
 }
 
 @media only screen and (max-width: 290px) {
     html {
-        font-size: 0.4rem;
+        font-size: 50%;
     }
     .skill {
         min-height: 20px;
     }
     .skill-bar {
         height: 10%;
+    }
+}
+
+@media only screen and (max-width: 170px) {
+    html {
+        font-size: 30%;
+    }
+}
+
+@media only screen and (max-width: 100px) {
+    html {
+        font-size: 20%;
     }
 }
