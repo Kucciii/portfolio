@@ -137,12 +137,12 @@ header {
   text-decoration: none;
   text-transform: uppercase;
   position: relative;
-  
+
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(19.5px);
   -webkit-backdrop-filter: blur(19.5px);
   border: 1px solid white;
-  
+
   max-width: max-content;
   margin: 1% 10%;
   padding: 1rem;
@@ -154,9 +154,9 @@ header {
   background-color: #03e9f4;
   color: white;
   box-shadow: 0 0 5px #03e9f4,
-              0 0 25px #03e9f4,
-              0 0 50px #03e9f4,
-              0 0 200px #03e9f4;
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 200px #03e9f4;
 }
 
 .neon-btn span:nth-child(1) {
@@ -299,7 +299,7 @@ header {
   padding-bottom: 50px;
 }
 
-.skills-cont{
+.skills-cont {
   background-color: #1a1a24;
   width: 80%;
   border-radius: 8px;
@@ -319,7 +319,7 @@ header {
 }
 
 .skill-icon {
-  width: 1.8rem; 
+  width: 1.8rem;
   filter: invert();
 }
 
@@ -360,12 +360,15 @@ header {
 #span-1 {
   width: 70%;
 }
+
 #span-2 {
   width: 50%;
 }
+
 #span-3 {
   width: 30%;
 }
+
 #span-4 {
   width: 50%;
 }
@@ -438,4 +441,99 @@ header {
   background-color: white;
   color: black;
   cursor: pointer;
+}
+
+/* Testimonial Section CSS */
+
+#testimonials {
+  background-color: white;
+}
+
+.testimonial-cont {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));;
+  padding: 1.5rem;
+}
+
+.testimonial {
+  position: relative;
+  margin: 0 0.5rem;
+  box-shadow: 2px 2px 20px #d4d4d4;
+  height: 60vh;
+}
+
+.testimonial::before {
+  background-position: bottom;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+}
+
+.testimonial:nth-child(1)::before {
+  background-image: url(../img/wave.svg);
+}
+
+.testimonial:nth-child(2)::before {
+  background-image: url(../img/wave2.svg);
+}
+
+.testimonial:nth-child(3)::before {
+  background-image: url(../img/wave3.svg);
+}
+
+.testimonial {
+  padding: 1rem;
+  text-align: justify;
+  display: grid;
+  grid-template-rows: 10vh 30vh 10vh 10vh;
+  height: 60vh;
+}
+
+.testimonial img {
+  width: 4rem;
+  border: 4px solid white;
+  border-radius: 45px;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.testimonial p {
+  font-size: 0.9rem;
+  font-family: 'Baloo 2';
+  font-weight: 500;
+}
+
+.testimonial h3 {
+  font-family: 'Baloo 2';
+  margin: 0 auto;
+  color: white;
+  z-index: 1;
+  font-weight: 500;
+  text-shadow: 2px 2px #1e1e1e;
+}
+
+.testimonial span {
+  font-size: 3rem;
+}
+
+.testimonial #span-1 {
+  color: #90ee90;
+}
+
+.testimonial #span-2 {
+  color: #20b2aa;
+}
+
+.testimonial #span-3 {
+  color: #87cefa;
+}
+
+.testimonial svg {
+  margin-top: 2rem;
+  position: absolute;
+  bottom: 0;
 }
