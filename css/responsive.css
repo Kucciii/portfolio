@@ -27,6 +27,16 @@
     }
 }
 
+@media only screen and (max-width: 650px) {
+    .testimonials-cont {
+        flex-direction: column;
+        padding: 0 10vw;
+    }
+    .testimonial {
+        margin: 4vh 0;
+    }
+}
+
 @media only screen and (max-width: 450px) {
     html {
         font-size: 65%;
@@ -58,6 +68,7 @@
     /* .testimonial-cont {
         grid-template-columns: 100%;
     } */
+
 }
 
 @media only screen and (max-width: 290px) {
