@@ -65,9 +65,9 @@
     .services-cont {
         grid-template-columns: 100%;
     }
-    /* .testimonial-cont {
-        grid-template-columns: 100%;
-    } */
+    .testimonial {
+        font-size: larger;
+    }
 
 }
 
