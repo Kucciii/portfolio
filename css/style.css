@@ -640,3 +640,86 @@ header {
   color: white !important;
   text-shadow: 2px 2px 1px black;
 }
+
+#contact {
+  background-color: rgb(233, 233, 233);
+}
+
+.contact-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  padding: 1.2rem;
+background: #1a1a24;
+box-shadow:  3px 3px 3px #131325,
+             -3px -3px 3px #1a1a24;
+             width: 70%;
+             color: white;
+}
+
+.contact-form .input {
+  outline: none;
+  background-color: #1a1a24;
+  border: none;
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid white;
+  font-size:0.8rem;
+}
+
+.contact-form .input::placeholder{
+  color: white;
+}
+
+.contact-form textarea {
+  resize: none;
+  width: 100%;
+}
+
+  #contact-form-submit-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 1.2rem;
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    transition: all .5s ease;
+    width: 40%;
+    color: black;
+   }
+   
+   #contact-form-submit-btn:hover {
+    letter-spacing: 3px;
+    background-color: aqua;
+    color: hsl(0, 0%, 100%);
+    box-shadow: aqua 0px 7px 29px 0px;
+    cursor: pointer;
+   }
+   
+   #contact-form-submit-btn:active {
+    letter-spacing: 3px;
+    background-color: aqua;
+    color: hsl(0, 0%, 100%);
+    box-shadow: aqua 0px 0px 0px 0px;
+    transform: translateY(6px);
+    transition: 100ms;
+   }

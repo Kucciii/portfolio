@@ -35,6 +35,16 @@
     .testimonial {
         margin: 4vh 0;
     }
+    .contact-form {
+        padding: 1rem 0.9rem;
+    }
+    .contact-form .input {
+        margin: 10px 0;
+        font-size: 0.8rem;
+    }
+    #contact-form-submit-btn {
+        font-size: 0.5rem;
+    }
 }
 
 @media only screen and (max-width: 450px) {
