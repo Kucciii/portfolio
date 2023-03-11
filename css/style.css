@@ -723,3 +723,13 @@ box-shadow:  3px 3px 3px #131325,
     transform: translateY(6px);
     transition: 100ms;
    }
+
+footer {
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Baloo 2', 'Times New Roman', Times, serif;
+  padding: 0.5rem;
+}
